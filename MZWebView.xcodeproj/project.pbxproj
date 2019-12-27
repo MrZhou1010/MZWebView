@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B477F08223B4841D009B0641 /* MZBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B477F08123B4841D009B0641 /* MZBaseWebViewController.m */; };
+		B4A1570523B09D8700674E7D /* MZWebViewJSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A1570423B09D8700674E7D /* MZWebViewJSBridge.m */; };
+		B4A1570823B0A26300674E7D /* MZWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A1570723B0A26300674E7D /* MZWebViewController.m */; };
+		B4A1570B23B0BBFC00674E7D /* MZWeakWebViewScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A1570A23B0BBFC00674E7D /* MZWeakWebViewScriptMessageDelegate.m */; };
+		B4C6CE5723AB26E10013FE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C6CE5623AB26E10013FE9D /* AppDelegate.swift */; };
+		B4C6CE5923AB26E10013FE9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C6CE5823AB26E10013FE9D /* SceneDelegate.swift */; };
+		B4C6CE5B23AB26E10013FE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C6CE5A23AB26E10013FE9D /* ViewController.swift */; };
+		B4C6CE5E23AB26E10013FE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C6CE5C23AB26E10013FE9D /* Main.storyboard */; };
+		B4C6CE6023AB26E50013FE9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C6CE5F23AB26E50013FE9D /* Assets.xcassets */; };
+		B4C6CE6323AB26E50013FE9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C6CE6123AB26E50013FE9D /* LaunchScreen.storyboard */; };
+		B4C6CE6E23AB26E50013FE9D /* MZWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C6CE6D23AB26E50013FE9D /* MZWebViewTests.swift */; };
+		B4C6CE7923AB26E50013FE9D /* MZWebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C6CE7823AB26E50013FE9D /* MZWebViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4C6CE6A23AB26E50013FE9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4C6CE4B23AB26E10013FE9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4C6CE5223AB26E10013FE9D;
+			remoteInfo = MZWebView;
+		};
+		B4C6CE7523AB26E50013FE9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4C6CE4B23AB26E10013FE9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4C6CE5223AB26E10013FE9D;
+			remoteInfo = MZWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B477F08023B4841D009B0641 /* MZBaseWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZBaseWebViewController.h; sourceTree = "<group>"; };
+		B477F08123B4841D009B0641 /* MZBaseWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZBaseWebViewController.m; sourceTree = "<group>"; };
+		B4A1570223B09D8600674E7D /* MZWebView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MZWebView-Bridging-Header.h"; sourceTree = "<group>"; };
+		B4A1570323B09D8700674E7D /* MZWebViewJSBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZWebViewJSBridge.h; sourceTree = "<group>"; };
+		B4A1570423B09D8700674E7D /* MZWebViewJSBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZWebViewJSBridge.m; sourceTree = "<group>"; };
+		B4A1570623B0A26300674E7D /* MZWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZWebViewController.h; sourceTree = "<group>"; };
+		B4A1570723B0A26300674E7D /* MZWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZWebViewController.m; sourceTree = "<group>"; };
+		B4A1570923B0BBFC00674E7D /* MZWeakWebViewScriptMessageDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZWeakWebViewScriptMessageDelegate.h; sourceTree = "<group>"; };
+		B4A1570A23B0BBFC00674E7D /* MZWeakWebViewScriptMessageDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZWeakWebViewScriptMessageDelegate.m; sourceTree = "<group>"; };
+		B4C6CE5323AB26E10013FE9D /* MZWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4C6CE5623AB26E10013FE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4C6CE5823AB26E10013FE9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B4C6CE5A23AB26E10013FE9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4C6CE5D23AB26E10013FE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4C6CE5F23AB26E50013FE9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4C6CE6223AB26E50013FE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4C6CE6423AB26E50013FE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4C6CE6923AB26E50013FE9D /* MZWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4C6CE6D23AB26E50013FE9D /* MZWebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZWebViewTests.swift; sourceTree = "<group>"; };
+		B4C6CE6F23AB26E50013FE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4C6CE7423AB26E50013FE9D /* MZWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4C6CE7823AB26E50013FE9D /* MZWebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZWebViewUITests.swift; sourceTree = "<group>"; };
+		B4C6CE7A23AB26E50013FE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4C6CE5023AB26E10013FE9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C6CE6623AB26E50013FE9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C6CE7123AB26E50013FE9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4C6CE4A23AB26E10013FE9D = {
+			isa = PBXGroup;
+			children = (
+				B4C6CE5523AB26E10013FE9D /* MZWebView */,
+				B4C6CE6C23AB26E50013FE9D /* MZWebViewTests */,
+				B4C6CE7723AB26E50013FE9D /* MZWebViewUITests */,
+				B4C6CE5423AB26E10013FE9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4C6CE5423AB26E10013FE9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4C6CE5323AB26E10013FE9D /* MZWebView.app */,
+				B4C6CE6923AB26E50013FE9D /* MZWebViewTests.xctest */,
+				B4C6CE7423AB26E50013FE9D /* MZWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4C6CE5523AB26E10013FE9D /* MZWebView */ = {
+			isa = PBXGroup;
+			children = (
+				B4C6CE8623AB26F90013FE9D /* MZWebView */,
+				B4C6CE5623AB26E10013FE9D /* AppDelegate.swift */,
+				B4C6CE5823AB26E10013FE9D /* SceneDelegate.swift */,
+				B4C6CE5A23AB26E10013FE9D /* ViewController.swift */,
+				B4A1570223B09D8600674E7D /* MZWebView-Bridging-Header.h */,
+				B4C6CE5C23AB26E10013FE9D /* Main.storyboard */,
+				B4C6CE5F23AB26E50013FE9D /* Assets.xcassets */,
+				B4C6CE6123AB26E50013FE9D /* LaunchScreen.storyboard */,
+				B4C6CE6423AB26E50013FE9D /* Info.plist */,
+			);
+			path = MZWebView;
+			sourceTree = "<group>";
+		};
+		B4C6CE6C23AB26E50013FE9D /* MZWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4C6CE6D23AB26E50013FE9D /* MZWebViewTests.swift */,
+				B4C6CE6F23AB26E50013FE9D /* Info.plist */,
+			);
+			path = MZWebViewTests;
+			sourceTree = "<group>";
+		};
+		B4C6CE7723AB26E50013FE9D /* MZWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4C6CE7823AB26E50013FE9D /* MZWebViewUITests.swift */,
+				B4C6CE7A23AB26E50013FE9D /* Info.plist */,
+			);
+			path = MZWebViewUITests;
+			sourceTree = "<group>";
+		};
+		B4C6CE8623AB26F90013FE9D /* MZWebView */ = {
+			isa = PBXGroup;
+			children = (
+				B4A1570323B09D8700674E7D /* MZWebViewJSBridge.h */,
+				B4A1570423B09D8700674E7D /* MZWebViewJSBridge.m */,
+				B477F08023B4841D009B0641 /* MZBaseWebViewController.h */,
+				B477F08123B4841D009B0641 /* MZBaseWebViewController.m */,
+				B4A1570623B0A26300674E7D /* MZWebViewController.h */,
+				B4A1570723B0A26300674E7D /* MZWebViewController.m */,
+				B4A1570923B0BBFC00674E7D /* MZWeakWebViewScriptMessageDelegate.h */,
+				B4A1570A23B0BBFC00674E7D /* MZWeakWebViewScriptMessageDelegate.m */,
+			);
+			name = MZWebView;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4C6CE5223AB26E10013FE9D /* MZWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4C6CE7D23AB26E50013FE9D /* Build configuration list for PBXNativeTarget "MZWebView" */;
+			buildPhases = (
+				B4C6CE4F23AB26E10013FE9D /* Sources */,
+				B4C6CE5023AB26E10013FE9D /* Frameworks */,
+				B4C6CE5123AB26E10013FE9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZWebView;
+			productName = MZWebView;
+			productReference = B4C6CE5323AB26E10013FE9D /* MZWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4C6CE6823AB26E50013FE9D /* MZWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4C6CE8023AB26E60013FE9D /* Build configuration list for PBXNativeTarget "MZWebViewTests" */;
+			buildPhases = (
+				B4C6CE6523AB26E50013FE9D /* Sources */,
+				B4C6CE6623AB26E50013FE9D /* Frameworks */,
+				B4C6CE6723AB26E50013FE9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4C6CE6B23AB26E50013FE9D /* PBXTargetDependency */,
+			);
+			name = MZWebViewTests;
+			productName = MZWebViewTests;
+			productReference = B4C6CE6923AB26E50013FE9D /* MZWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4C6CE7323AB26E50013FE9D /* MZWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4C6CE8323AB26E60013FE9D /* Build configuration list for PBXNativeTarget "MZWebViewUITests" */;
+			buildPhases = (
+				B4C6CE7023AB26E50013FE9D /* Sources */,
+				B4C6CE7123AB26E50013FE9D /* Frameworks */,
+				B4C6CE7223AB26E50013FE9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4C6CE7623AB26E50013FE9D /* PBXTargetDependency */,
+			);
+			name = MZWebViewUITests;
+			productName = MZWebViewUITests;
+			productReference = B4C6CE7423AB26E50013FE9D /* MZWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4C6CE4B23AB26E10013FE9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Mr.Z;
+				TargetAttributes = {
+					B4C6CE5223AB26E10013FE9D = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
+					B4C6CE6823AB26E50013FE9D = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = B4C6CE5223AB26E10013FE9D;
+					};
+					B4C6CE7323AB26E50013FE9D = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = B4C6CE5223AB26E10013FE9D;
+					};
+				};
+			};
+			buildConfigurationList = B4C6CE4E23AB26E10013FE9D /* Build configuration list for PBXProject "MZWebView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4C6CE4A23AB26E10013FE9D;
+			productRefGroup = B4C6CE5423AB26E10013FE9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4C6CE5223AB26E10013FE9D /* MZWebView */,
+				B4C6CE6823AB26E50013FE9D /* MZWebViewTests */,
+				B4C6CE7323AB26E50013FE9D /* MZWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4C6CE5123AB26E10013FE9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C6CE6323AB26E50013FE9D /* LaunchScreen.storyboard in Resources */,
+				B4C6CE6023AB26E50013FE9D /* Assets.xcassets in Resources */,
+				B4C6CE5E23AB26E10013FE9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C6CE6723AB26E50013FE9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C6CE7223AB26E50013FE9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4C6CE4F23AB26E10013FE9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A1570823B0A26300674E7D /* MZWebViewController.m in Sources */,
+				B4A1570B23B0BBFC00674E7D /* MZWeakWebViewScriptMessageDelegate.m in Sources */,
+				B4A1570523B09D8700674E7D /* MZWebViewJSBridge.m in Sources */,
+				B4C6CE5B23AB26E10013FE9D /* ViewController.swift in Sources */,
+				B4C6CE5723AB26E10013FE9D /* AppDelegate.swift in Sources */,
+				B4C6CE5923AB26E10013FE9D /* SceneDelegate.swift in Sources */,
+				B477F08223B4841D009B0641 /* MZBaseWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C6CE6523AB26E50013FE9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C6CE6E23AB26E50013FE9D /* MZWebViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C6CE7023AB26E50013FE9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C6CE7923AB26E50013FE9D /* MZWebViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4C6CE6B23AB26E50013FE9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4C6CE5223AB26E10013FE9D /* MZWebView */;
+			targetProxy = B4C6CE6A23AB26E50013FE9D /* PBXContainerItemProxy */;
+		};
+		B4C6CE7623AB26E50013FE9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4C6CE5223AB26E10013FE9D /* MZWebView */;
+			targetProxy = B4C6CE7523AB26E50013FE9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4C6CE5C23AB26E10013FE9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4C6CE5D23AB26E10013FE9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4C6CE6123AB26E50013FE9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4C6CE6223AB26E50013FE9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4C6CE7B23AB26E50013FE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4C6CE7C23AB26E50013FE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4C6CE7E23AB26E50013FE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GKD84VMPR;
+				INFOPLIST_FILE = MZWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.git.mz.MZWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MZWebView/MZWebView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4C6CE7F23AB26E50013FE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GKD84VMPR;
+				INFOPLIST_FILE = MZWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.git.mz.MZWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MZWebView/MZWebView-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4C6CE8123AB26E60013FE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MZWebViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.git.mz.MZWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZWebView.app/MZWebView";
+			};
+			name = Debug;
+		};
+		B4C6CE8223AB26E60013FE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MZWebViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.git.mz.MZWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZWebView.app/MZWebView";
+			};
+			name = Release;
+		};
+		B4C6CE8423AB26E60013FE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MZWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.git.mz.MZWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MZWebView;
+			};
+			name = Debug;
+		};
+		B4C6CE8523AB26E60013FE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MZWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.git.mz.MZWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MZWebView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4C6CE4E23AB26E10013FE9D /* Build configuration list for PBXProject "MZWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C6CE7B23AB26E50013FE9D /* Debug */,
+				B4C6CE7C23AB26E50013FE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4C6CE7D23AB26E50013FE9D /* Build configuration list for PBXNativeTarget "MZWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C6CE7E23AB26E50013FE9D /* Debug */,
+				B4C6CE7F23AB26E50013FE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4C6CE8023AB26E60013FE9D /* Build configuration list for PBXNativeTarget "MZWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C6CE8123AB26E60013FE9D /* Debug */,
+				B4C6CE8223AB26E60013FE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4C6CE8323AB26E60013FE9D /* Build configuration list for PBXNativeTarget "MZWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C6CE8423AB26E60013FE9D /* Debug */,
+				B4C6CE8523AB26E60013FE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4C6CE4B23AB26E10013FE9D /* Project object */;
+}
