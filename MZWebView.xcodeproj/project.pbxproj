@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B477F08223B4841D009B0641 /* MZBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B477F08123B4841D009B0641 /* MZBaseWebViewController.m */; };
-		B4A1570523B09D8700674E7D /* MZWebViewJSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A1570423B09D8700674E7D /* MZWebViewJSBridge.m */; };
-		B4A1570823B0A26300674E7D /* MZWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A1570723B0A26300674E7D /* MZWebViewController.m */; };
-		B4A1570B23B0BBFC00674E7D /* MZWeakWebViewScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A1570A23B0BBFC00674E7D /* MZWeakWebViewScriptMessageDelegate.m */; };
+		B4699A6923D1B5C9000ABF7D /* MZBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4699A6123D1B5C8000ABF7D /* MZBaseWebViewController.m */; };
+		B4699A6A23D1B5C9000ABF7D /* MZWebViewJSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = B4699A6223D1B5C8000ABF7D /* MZWebViewJSBridge.m */; };
+		B4699A6B23D1B5C9000ABF7D /* MZWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4699A6423D1B5C8000ABF7D /* MZWebViewController.m */; };
+		B4699A6C23D1B5C9000ABF7D /* MZWeakWebViewScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4699A6623D1B5C8000ABF7D /* MZWeakWebViewScriptMessageDelegate.m */; };
 		B4C6CE5723AB26E10013FE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C6CE5623AB26E10013FE9D /* AppDelegate.swift */; };
 		B4C6CE5923AB26E10013FE9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C6CE5823AB26E10013FE9D /* SceneDelegate.swift */; };
 		B4C6CE5B23AB26E10013FE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C6CE5A23AB26E10013FE9D /* ViewController.swift */; };
@@ -39,15 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B477F08023B4841D009B0641 /* MZBaseWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZBaseWebViewController.h; sourceTree = "<group>"; };
-		B477F08123B4841D009B0641 /* MZBaseWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZBaseWebViewController.m; sourceTree = "<group>"; };
+		B4699A6123D1B5C8000ABF7D /* MZBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZBaseWebViewController.m; sourceTree = "<group>"; };
+		B4699A6223D1B5C8000ABF7D /* MZWebViewJSBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZWebViewJSBridge.m; sourceTree = "<group>"; };
+		B4699A6323D1B5C8000ABF7D /* MZWeakWebViewScriptMessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZWeakWebViewScriptMessageDelegate.h; sourceTree = "<group>"; };
+		B4699A6423D1B5C8000ABF7D /* MZWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZWebViewController.m; sourceTree = "<group>"; };
+		B4699A6523D1B5C8000ABF7D /* MZBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZBaseWebViewController.h; sourceTree = "<group>"; };
+		B4699A6623D1B5C8000ABF7D /* MZWeakWebViewScriptMessageDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZWeakWebViewScriptMessageDelegate.m; sourceTree = "<group>"; };
+		B4699A6723D1B5C8000ABF7D /* MZWebViewJSBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZWebViewJSBridge.h; sourceTree = "<group>"; };
+		B4699A6823D1B5C8000ABF7D /* MZWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZWebViewController.h; sourceTree = "<group>"; };
 		B4A1570223B09D8600674E7D /* MZWebView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MZWebView-Bridging-Header.h"; sourceTree = "<group>"; };
-		B4A1570323B09D8700674E7D /* MZWebViewJSBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZWebViewJSBridge.h; sourceTree = "<group>"; };
-		B4A1570423B09D8700674E7D /* MZWebViewJSBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZWebViewJSBridge.m; sourceTree = "<group>"; };
-		B4A1570623B0A26300674E7D /* MZWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZWebViewController.h; sourceTree = "<group>"; };
-		B4A1570723B0A26300674E7D /* MZWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZWebViewController.m; sourceTree = "<group>"; };
-		B4A1570923B0BBFC00674E7D /* MZWeakWebViewScriptMessageDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZWeakWebViewScriptMessageDelegate.h; sourceTree = "<group>"; };
-		B4A1570A23B0BBFC00674E7D /* MZWeakWebViewScriptMessageDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZWeakWebViewScriptMessageDelegate.m; sourceTree = "<group>"; };
 		B4C6CE5323AB26E10013FE9D /* MZWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C6CE5623AB26E10013FE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4C6CE5823AB26E10013FE9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +89,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4699A6023D1B5C8000ABF7D /* MZWebView */ = {
+			isa = PBXGroup;
+			children = (
+				B4699A6523D1B5C8000ABF7D /* MZBaseWebViewController.h */,
+				B4699A6123D1B5C8000ABF7D /* MZBaseWebViewController.m */,
+				B4699A6823D1B5C8000ABF7D /* MZWebViewController.h */,
+				B4699A6423D1B5C8000ABF7D /* MZWebViewController.m */,
+				B4699A6723D1B5C8000ABF7D /* MZWebViewJSBridge.h */,
+				B4699A6223D1B5C8000ABF7D /* MZWebViewJSBridge.m */,
+				B4699A6323D1B5C8000ABF7D /* MZWeakWebViewScriptMessageDelegate.h */,
+				B4699A6623D1B5C8000ABF7D /* MZWeakWebViewScriptMessageDelegate.m */,
+			);
+			path = MZWebView;
+			sourceTree = "<group>";
+		};
 		B4C6CE4A23AB26E10013FE9D = {
 			isa = PBXGroup;
 			children = (
@@ -112,7 +127,7 @@
 		B4C6CE5523AB26E10013FE9D /* MZWebView */ = {
 			isa = PBXGroup;
 			children = (
-				B4C6CE8623AB26F90013FE9D /* MZWebView */,
+				B4699A6023D1B5C8000ABF7D /* MZWebView */,
 				B4C6CE5623AB26E10013FE9D /* AppDelegate.swift */,
 				B4C6CE5823AB26E10013FE9D /* SceneDelegate.swift */,
 				B4C6CE5A23AB26E10013FE9D /* ViewController.swift */,
@@ -141,22 +156,6 @@
 				B4C6CE7A23AB26E50013FE9D /* Info.plist */,
 			);
 			path = MZWebViewUITests;
-			sourceTree = "<group>";
-		};
-		B4C6CE8623AB26F90013FE9D /* MZWebView */ = {
-			isa = PBXGroup;
-			children = (
-				B4A1570323B09D8700674E7D /* MZWebViewJSBridge.h */,
-				B4A1570423B09D8700674E7D /* MZWebViewJSBridge.m */,
-				B477F08023B4841D009B0641 /* MZBaseWebViewController.h */,
-				B477F08123B4841D009B0641 /* MZBaseWebViewController.m */,
-				B4A1570623B0A26300674E7D /* MZWebViewController.h */,
-				B4A1570723B0A26300674E7D /* MZWebViewController.m */,
-				B4A1570923B0BBFC00674E7D /* MZWeakWebViewScriptMessageDelegate.h */,
-				B4A1570A23B0BBFC00674E7D /* MZWeakWebViewScriptMessageDelegate.m */,
-			);
-			name = MZWebView;
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,13 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4A1570823B0A26300674E7D /* MZWebViewController.m in Sources */,
-				B4A1570B23B0BBFC00674E7D /* MZWeakWebViewScriptMessageDelegate.m in Sources */,
-				B4A1570523B09D8700674E7D /* MZWebViewJSBridge.m in Sources */,
+				B4699A6A23D1B5C9000ABF7D /* MZWebViewJSBridge.m in Sources */,
 				B4C6CE5B23AB26E10013FE9D /* ViewController.swift in Sources */,
+				B4699A6C23D1B5C9000ABF7D /* MZWeakWebViewScriptMessageDelegate.m in Sources */,
+				B4699A6B23D1B5C9000ABF7D /* MZWebViewController.m in Sources */,
 				B4C6CE5723AB26E10013FE9D /* AppDelegate.swift in Sources */,
 				B4C6CE5923AB26E10013FE9D /* SceneDelegate.swift in Sources */,
-				B477F08223B4841D009B0641 /* MZBaseWebViewController.m in Sources */,
+				B4699A6923D1B5C9000ABF7D /* MZBaseWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
